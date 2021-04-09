@@ -1,2 +1,8 @@
 <h1>sqlmap PHPSESSID Bypass Tamper</h1>
 <p>sqlmap random PHPSESSID | PHPSESSION protection &amp;&amp; block bypass</p>
+<h4>EN</h4>
+<p>Some sites create a block while testing and keep it as a session. I encountered this situation while testing with sqlmap and wrote a tamper.</p>
+<p>this tamper generates a random PHPSESSID and sends it as a cookie. In this way, it creates the impression of a new login and overcomes the obstacle.</p>
+<h4>TR</h4>
+<p>bu tamper rastgele bir PHPSESSID oluşturur ve bunu bir cookie bilgisi olarak gönderir. Bu şekilde yeni bir giriş izlenimi yaratır ve engeli aşar.</p>
+<p>Coded by LQM33</p>
